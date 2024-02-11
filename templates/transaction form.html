@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Create Transaction</title>
+</head>
+<body>
+    <h1>Create a New Transaction</h1>
+    <form action="/transactions/new" method="post">
+        <label for="sender">Sender:</label><br>
+        <input type="text" id="sender" name="sender"><br>
+        <label for="recipient">Recipient:</label><br>
+        <input type="text" id="recipient" name="recipient"><br>
+        <label for="medicine">Medicine:</label><br>
+        <input type="text" id="medicine" name="medicine"><br>
+        <label for="quantity">Quantity:</label><br>
+        <input type="number" id="quantity" name="quantity"><br>
+        <label for="price">Price:</label><br>
+        <input type="text" id="price" name="price"><br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
